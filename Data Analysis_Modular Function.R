@@ -148,7 +148,7 @@ marijuana2024m$vape<-clean_var(marijuana2024m$MARJVAPE)
 marijuana2024m$eat<-clean_var(marijuana2024m$MARJEAT)
 marijuana2024m$oth<-clean_var(marijuana2024m$MARJOTHR)
 
-#compare variables from Marijuana2024(no modular function) to Marijuana2024m (includes a modular function) to see if it worked
+#compare variables from marijuana2024(no modular function) to marijuana2024m (includes a modular function) to see if it worked
 sum(is.na(marijuana2024$marij_smoke))
 sum(is.na(marijuana2024m$smoke))
 
